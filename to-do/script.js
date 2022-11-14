@@ -96,7 +96,7 @@ function toggleDeleteBTN() {
 }
 function deleteAllItem() {
     let element = document.querySelectorAll(".checked")
-    console.log(element);
+    
     element.forEach(function (item) {
         item.remove();
 
