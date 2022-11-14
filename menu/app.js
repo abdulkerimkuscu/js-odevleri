@@ -107,7 +107,7 @@ function displayMenuItems(menuItem) {
   displayMenu = displayMenu.join("");
   sectionCenter.innerHTML = displayMenu
 }
-// menü butonlarının getirilmesi
+// menünün mutfaklara göre sınıflandırılması
 function displayMenuButtons() {
   const categories = menu.reduce(
     function (values, item) {
